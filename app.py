@@ -9,8 +9,8 @@ from sqlalchemy.orm import relationship
 import random
 import os
 import csv
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
